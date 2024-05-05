@@ -1,0 +1,68 @@
+/* Global Styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  background-color: rgb(165, 7, 165);
+  justify-content: center;
+  align-items: center;
+  border: 2px;
+  font-size: 5rem;
+  font-family: 'Franklin Gothic Medium';
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Chatbot container styles */
+#chatbot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Chatbot window styles */
+#chatbot-window {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #150101;
+  padding: 10px;
+  background-color: plum;
+  overflow-y: auto;
+}
+
+/* Messages styles */
+#chatbot-messages {
+  height: 350px;
+  overflow-y: auto;
+}
+
+/* Input styles */
+#chatbot-input {
+  width: calc(100% - 60px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Send button styles */
+#chatbot-send-btn {
+  padding: 10px 20px;
+  background-color: rgb(235, 72, 235);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#chatbot-send-btn:hover {
+  background-color: rgb(209, 10, 209);
+}
